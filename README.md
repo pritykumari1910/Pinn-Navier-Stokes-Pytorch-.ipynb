@@ -36,7 +36,7 @@ u_x + v_y = 0
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/<your-username>/pinn-navier-stokes.git
 cd pinn-navier-stokes
 
