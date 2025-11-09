@@ -80,106 +80,12 @@ Activation: tanh
 
 Optimizers: Adam + LBFGS hybrid training
 
-Loss function:
 
-𝑚
-𝑎
-𝑡
-ℎ
-𝑐
-𝑎
-𝑙
-𝐿
-=
-𝑡
-𝑒
-𝑥
-𝑡
-𝑀
-𝑆
-𝐸
-𝑃
-𝐷
-𝐸
-+
-𝑡
-𝑒
-𝑥
-𝑡
-𝑀
-𝑆
-𝐸
-𝐼
-𝐶
-+
-𝑡
-𝑒
-𝑥
-𝑡
-𝑀
-𝑆
-𝐸
-𝐵
-𝐶
-mathcalL=
-textMSE
-PDE
-	​
+<img width="734" height="199" alt="image" src="https://github.com/user-attachments/assets/0f58fea4-a64a-4884-b94d-5bf1ea04483c" />
 
-+
-textMSE
-IC
-	​
 
-+
-textMSE
-BC
-	​
-
-📊 Results
-
-After training, the network accurately predicts:
-
-Velocity fields 
-𝑢
-(
-𝑥
-,
-𝑦
-,
-𝑡
-)
-,
-𝑣
-(
-𝑥
-,
-𝑦
-,
-𝑡
-)
-u(x,y,t),v(x,y,t)
-
-Pressure distribution 
-𝑝
-(
-𝑥
-,
-𝑦
-,
-𝑡
-)
-p(x,y,t)
-
-Relative L2 error typically < 5%
-
-Example visualization:
-
-Quantity	Exact vs PINN	Error
-u(x,y,t)	
+<img width="855" height="392" alt="image" src="https://github.com/user-attachments/assets/07c07b33-69db-4866-b6cc-6fd4e29ed006" />
 	
-
-p(x,y,t)	
 	
 🧪 Theory Reference
 
